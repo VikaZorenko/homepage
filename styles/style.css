@@ -1,0 +1,48 @@
+main {
+    background-image: url('./images/flowers.jpg');
+    background-attachment: fixed;
+    background-repeat: repeat;
+
+}
+.new-border {
+    border: 20px solid transparent;  
+    -moz-border-image: -moz-linear-gradient(top, #ffe4e4 0%, #eb88d2 100%);  
+    -webkit-border-image: -webkit-linear-gradient(top, #ffe4e4 0%, #eb88d2 100%);  
+    border-image: linear-gradient(to bottombottom, #ffe4e4 0%, #eb88d2 100%);  
+    border-image-slice: 1;  
+}
+
+.avatar {
+    width: 250px;
+    height: 300px;
+}
+
+.twitter:hover {
+    color: #eb88d2;
+}
+.instagram:hover {
+    color: #eb88d2;
+}
+.facebook:hover {
+    color: #eb88d2;
+}
+.mail:hover {
+    color: #eb88d2;
+}
+
+.hover-item:hover {
+    background-image: linear-gradient(to right,#eb88d2 0%, #ffe4e4 140%);
+    -moz-background-image: -moz-linear-gradient(to right,#eb88d2 0%, #ffe4e4 140%);
+    -webkit-background-image: -webkit-linear-gradient(to right, #eb88d2 0%, #ffe4e4 140%);
+    color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.hover-item:hover em {
+    font-weight: bold;
+}
+.gif {
+    width: 60%;
+}
